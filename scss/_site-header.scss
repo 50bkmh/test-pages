@@ -1,0 +1,38 @@
+body {
+	// padding-top: 10rem;
+	background: wheat;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.site-branding {
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	background: url('../assets/images/planets.jpeg');
+	background-position: center;
+	background-size: cover;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	width: 100%;
+	min-height: 50vh;
+	// padding: 0 2rem;
+	padding-bottom: 4rem;
+}
+
+.site-title {
+	font-size: 2.2em;
+	letter-spacing: 1.2rem;
+	// padding-bottom: 0.5rem;
+	// margin-bottom: 0.5rem;
+	// margin-top: 6rem;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+
+	& a {
+		text-decoration: none;
+		color: wheat;
+	}
+}

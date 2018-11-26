@@ -1,0 +1,63 @@
+body {
+	color: var(--color-text-main, red);
+}
+
+// .site {
+// 	padding: var(--spacing-site, 22em);
+
+// 	@at-root #{&}-content {
+// 		// max-width: 60rem;
+// 		margin: 0 auto;
+// 	}
+// }
+
+// body.login {
+// 	height: 100vh;
+// 	overflow: hidden;
+// 	padding-top: 0;
+// 	display: flex;
+
+// 	.site {
+// 		flex: 1 0 auto;
+// 		background: #EEE;
+// 		border: 4rem solid #FFF;
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+
+// 		#{&}-header {
+// 			display: none;
+// 		}
+// 	}
+// }
+
+.overview {
+	text-align: center;
+	padding: 2rem 0;
+
+	p {
+		margin: 0 10rem;
+	}
+}
+
+.planet {
+	display: flex;
+	box-shadow: 0 4px 80px rgba(0,0,0,.25);
+	border: 0.1rem solid black;
+
+	img {
+		display: block;
+	}
+}
+
+.planet-text {
+	text-align: center;
+}
+
+.text-bold {
+	font-size: bold;
+}
+
+.planet-right {
+	// background: white;
+}
