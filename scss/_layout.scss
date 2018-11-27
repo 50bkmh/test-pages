@@ -40,18 +40,39 @@ body {
 	}
 }
 
+.planets {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	margin: auto;
+	grid-gap: 2rem;
+}
+
 .planet {
 	display: flex;
-	box-shadow: 0 4px 80px rgba(0,0,0,.25);
+	// align-self: center;
+	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
 	border: 0.1rem solid black;
+	width: 60%;
 
 	img {
 		display: block;
+		// width: 100%;
+		// height: auto;
 	}
+}
+
+.planet-title {
+	text-align: center;
 }
 
 .planet-text {
 	text-align: center;
+	padding: 1rem;
+}
+
+.planet-right {
+	padding: 1rem;
 }
 
 .text-bold {
