@@ -45,7 +45,7 @@ body {
 	align-items: center;
 	justify-items: center;
 	margin: auto;
-	grid-gap: 2rem;
+	grid-gap: 4rem;
 }
 
 .planet {
@@ -53,6 +53,7 @@ body {
 	// align-self: center;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
 	border: 0.1rem solid black;
+	border-radius: 0.2rem;
 	width: 60%;
 
 	img {
