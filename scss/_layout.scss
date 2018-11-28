@@ -39,12 +39,12 @@ body {
 	grid-gap: 1rem;
 	grid-template-columns: repeat(3, 1fr);
 	text-align: center;
+	margin: 2rem;
 }
 
 .grid-number {
 	background: black;
 	color: wheat;
-	border-radius: 10rem;
 }
 
 .info-main {
