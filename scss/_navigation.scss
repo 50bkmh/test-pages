@@ -65,7 +65,9 @@
 	}
 
 	@for $i from 1 through 6 {
-		li:nth-child(#{$i}) { animation-delay: $i * 0.15s; }
+		li:nth-child(#{$i}) { 
+			animation-delay: $i * 0.15s;
+		}
 	}
 }
 
@@ -79,7 +81,7 @@
 }
 
 .nav-toggle {
-	display: none;
+	// display: none;
 	position: absolute;
 	top: var(--spacing-site, 2rem);
 	left: var(--spacing-site, 2rem);
@@ -103,15 +105,32 @@
 	&#nav-toggle-right {
 		left: inherit;
 		right: var(--spacing-site, 2rem);
-		color: white;
+		color: wheat;
 	}
 }
 
 #nav-main-toggle:checked + .site-header {
 
    	.navigation {
+		position: relative;
 		display: flex;
-		z-index: 1000;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 0; left: 0; right: 0; bottom: 0;
+		// z-index: 1000;
+		// height: 100vh;
+
+		.links-menu {
+			display: flex;
+			flex-direction: column;
+		}
+
+		
+		.sign {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	.nav-toggle:before {

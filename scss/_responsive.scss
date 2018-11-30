@@ -1,12 +1,12 @@
 $breakpoints: (
-	"phone": 400px,
+	"phone": 320px,
 	"phone-wide": 480px,
-	"phablet": 560px,
 	"tablet-small": 640px,
 	"tablet": 768px,
-	"tablet-wide": 1024px,
+	"tablet-wide": 960px,
+	"tablet-wider": 1024px,
 	"desktop": 1248px,
-	"desktop-wide": 1440px
+	"desktop-wide": 1600px
 );
 
 @mixin mq($width, $type: min) {
@@ -25,5 +25,58 @@ $breakpoints: (
 				@content;
 			}
 		}
+	}
+}
+
+@media all and (min-width: 1025px) {
+	.nav-toggle {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.planet {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		// width: 100%;
+		// width: 20%;
+
+		.div {
+			display: inline-block;
+			width: 100%;
+			
+			img {
+				max-width: 100%;
+				display: block;
+				height: auto;
+			}
+		}
+	}
+
+	.planet-info {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.navigation.main {
+		display: none;
+	}
+
+	#nav-toggle-right  {
+		display: block;
+	}
+
+	.site-branding {
+
+		padding-bottom: 2rem;
+
+		.site-title {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 2rem;
+		}
+		
 	}
 }
