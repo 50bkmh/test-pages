@@ -88,6 +88,11 @@ h6 {
 	padding-bottom: 0.5em;
 }
 
+h3,
+.grid-number {
+	margin-top: 0.5em;
+}
+
 $headings: (h1: 2.441em, h2: 1.953em, h3: 1.563em, h5: 1em, h6: 1em);
 
 @each $heading,
