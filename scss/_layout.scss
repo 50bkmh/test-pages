@@ -39,13 +39,25 @@ body {}
 	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
 	margin: 2rem;
+
+	.extra {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+		a {
+			font-size: 6rem;
+			color: black;
+		}
+	}
 }
 
 .grid-number {
 	background: black;
 	color: wheat;
 	width: 14%;
-    border-radius: 20%;
+	border-radius: 20%;
 }
 
 .info-main {
@@ -122,7 +134,7 @@ body {}
 	align-items: center;
 	text-align: center;
 	padding: 1rem;
-	
+
 	article {
 		// border: 0.05rem solid black;
 	}
@@ -133,7 +145,9 @@ body {}
 }
 
 
-.fas {
+.fa-wrench,
+.fa-space-shuttle,
+.fa-bolt {
 	font-size: 4rem;
 	color: black;
 }
