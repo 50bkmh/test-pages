@@ -40,10 +40,14 @@ $breakpoints: (
 		grid-template-columns: 1fr 1fr;
 	}
 
+	.grid-number {
+		width: 10%;
+	}
+
 	.planet {
 		display: flex;
 		flex-direction: column;
-		width: 30%;
+		width: 50%;
 
 		.div {
 
@@ -86,6 +90,35 @@ $breakpoints: (
 @media screen and (max-width: 640px) {
 	#grid {
 		grid-template-columns: 1fr;
+		margin: 4rem;
+		grid-gap: 2rem;
+	}
+
+	.grid-number {
+		width: 6%;
+	}
+
+	.planet {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.planet {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.planet {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#grid {
+		margin: 3rem;
+		grid-gap: 1rem;
 	}
 }
 
