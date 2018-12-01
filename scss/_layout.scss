@@ -32,7 +32,7 @@ body {}
 	text-align: center;
 }
 
-.grid {
+#grido {
 	display: grid;
 	grid-gap: 1rem;
 	grid-template-columns: repeat(3, 1fr);
@@ -41,7 +41,7 @@ body {}
 }
 
 .grid-number {
-	background: --color-text-main;
+	background: black;
 	color: wheat;
 }
 
@@ -71,15 +71,19 @@ body {}
 }
 
 .planet {
-	display: flex;
+	// display: flex;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
 	border-radius: 0.5rem;
-	width: 60%;
+	width: 50%;
 
 	div {
+		// float: left;
+		width: 100%;
 
 		img {
-			display: block;
+			// display: block;
+			width: 100%;
+			height: auto;
 			// width: 320px;
 			// height: 240px;
 			// width: 17.77em;
@@ -88,12 +92,12 @@ body {}
 	}
 }
 
-.image-container {
-	height: 100%; 
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-}
+// .image-container {
+// 	height: 100%; 
+// 	width: 100%;
+// 	margin: 0 auto;
+// 	padding: 0;
+// }
 
 .planet-title {
 	text-align: center;
@@ -107,6 +111,8 @@ body {}
 .planet-info {
 	text-align: center;
 	padding: 1rem;
+	width: 60%;
+	// float: right;
 }
 
 .text-bold {
