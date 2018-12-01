@@ -30,6 +30,7 @@ body {}
 // }
 .title-main {
 	text-align: center;
+	padding-top: 2rem;
 }
 
 #grid {
@@ -52,7 +53,7 @@ body {}
 	flex-direction: column;
 	align-items: center;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
-	border: 0.05rem solid --color-text-main;
+	border: 0.05rem solid black;
 	border-radius: 0.2rem;
 }
 
@@ -76,7 +77,8 @@ body {}
 .planet {
 	display: flex;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
-	border-radius: 0.5rem;
+	border-radius: 0.2rem;
+	border: 0.05rem solid black;
 	width: 66%;
 
 	div {
@@ -111,4 +113,41 @@ body {}
 
 .text-bold {
 	font-size: bold;
+}
+
+#development {
+	display: flex;
+	// flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
+	
+	article {
+		// border: 0.05rem solid black;
+	}
+
+	article:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+}
+
+
+.fas {
+	font-size: 4rem;
+	color: black;
+}
+
+#sun {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.planet {
+		border: none;
+	}
+
+	#hide {
+		display: none;
+	}
 }
