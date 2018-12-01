@@ -112,7 +112,7 @@
 #nav-main-toggle:checked + .site-header {
 
    	.navigation {
-		position: relative;
+		position: absolute;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

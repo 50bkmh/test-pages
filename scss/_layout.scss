@@ -32,10 +32,10 @@ body {}
 	text-align: center;
 }
 
-#grido {
+#grid {
 	display: grid;
 	grid-gap: 1rem;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
 	margin: 2rem;
 }

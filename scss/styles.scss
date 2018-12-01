@@ -8,7 +8,6 @@ $fa-font-path: '../fontawesome/webfonts';
 @import '../fontawesome/scss/solid';
 
 @import 'mixins';
-@import 'responsive';
 @import 'variables';
 @import 'reset';
 @import 'animations';
@@ -20,7 +19,7 @@ $fa-font-path: '../fontawesome/webfonts';
 @import 'navigation';
 
 @import 'listing';
-
+@import 'responsive';
 @import 'site-header';
 @import 'site-footer';
  

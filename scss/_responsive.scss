@@ -36,14 +36,13 @@ $breakpoints: (
 
 @media screen and (max-width: 1024px) {
 
-	#grido {
-		grid-template-columns: repeat(2, 1fr);
+	#grid {
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.planet {
 		display: flex;
 		flex-direction: column;
-		// width: 100%;
 		width: 30%;
 
 		.div {
@@ -81,6 +80,12 @@ $breakpoints: (
 			justify-content: center;
 			padding-top: 2rem;
 		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#grid {
+		grid-template-columns: 1fr;
 	}
 }
 
