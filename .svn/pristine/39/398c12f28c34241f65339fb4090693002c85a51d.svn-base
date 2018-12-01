@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Solar</title>
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div class="site">
+		<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
+		<header class="site-header">
+			<div class="site-branding">
+				<nav class="navigation main">
+					<ul class="links-menu">
+						<li><a class="fas fa-home" href="/">Home</a></li>
+						<li><a class="fas fa-globe" href="/html/planets/">Planets</a></li>
+						<li><a class="fas fa-moon" href="/html/moons/">Moons</a></li>
+						<li><a class="fas fa-meteor" href="/html/acm/">Asteroids, Comets & Meteors</a></li>
+					</ul>
+					<ul class="sign">
+						<li><a class="fas fa-key" href="/html/login/">Login</a></li>
+						<li><a class="fas fa-user-friends" href="/html/register/">Register</a></li>
+					</ul>
+				</nav>
+				<p class="site-title">
+					<a href="/">Solar</a>
+				</p>
+			</div>
+			<label id="nav-toggle-right" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
+		</header>
+		<main class="site-content">
+			<section class="overview">
+    <h2>Overview</h2>
+    <p>Don’t let the name fool you. Our solar system’s small bodies—asteroids, comets and meteors—pack big surprises.
+        Asteroids and comets—and the meteors that sometimes come from them—are leftovers from the formation of our
+        solar system 4.6 billion years ago. While the planets and moons have changed over the millennia, many of these
+        small chunks of ice, rock and metal have not. They are a lot like a fossil record of planetary evolution.
+        There are currently <span class="text-bold">781,692 known asteroids</span> and <span class="text-bold">3,535
+            known comets.</span>
+    </p>
+</section>
+<section class="planets">
+    <article class="planet">
+        <div>
+            <img src="/assets/images/asteroids.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Asteroids</h2>
+            <p class="planet-text">These rocky fragments are leftovers from the beginning of our solar system.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets/images/comets.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Comets</h2>
+            <p class="planet-text">Cosmic snowballs of gas and dust that make sweeping orbits around our sun.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets//images/meteors.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Meteors</h2>
+            <p class="planet-text">Shooting stars are actually bits of debris that fall through our atmosphere.</p>
+        </div>
+    </article>
+</section>
+		</main>
+		<footer class="site-footer">
+			<ul class="links-menu">
+				<li><a href="https://www.facebook.com/nasasolarsystem/" class="face fab fa-facebook"> Facebook</a></li>
+				<li><a href="https://twitter.com/NASASolarSystem" class="tweet fab fa-twitter"> Twitter</a></li>
+			</ul>
+			<div class="copyright">
+				<p>2018 - Solar</p>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

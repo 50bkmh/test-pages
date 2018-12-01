@@ -1,0 +1,66 @@
+form {
+	animation: shake 0.5s 1 ease-in-out forwards;
+}
+
+label {
+	font-weight: bold;
+	display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 20rem;
+	display: block;
+	border: 2px solid rgb(177, 177, 177);
+	padding: 0.4em 1em;
+	border-radius: 0.4em;
+	background: wheat;
+	outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	background: wheat;
+	border-color: black;
+}
+
+// input[type="submit"] {
+// 	display: block;
+// 	border: 2px solid #000;
+// 	background: #333;
+// 	color: #FFF;
+// 	padding: 0.6em 2.2em;
+// 	border-radius: 0.4em;
+// 	font-weight: bold;
+// 	cursor: pointer;
+// }
+
+// input[type="submit"]:hover {
+// 	background: #060;
+// 	transition: background 0.3s ease, border-color 0.3s ease;
+// }
+
+.login-box,
+.register-box {
+	margin: 10rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-login,
+.form-register {
+	box-shadow: 0 4px 80px rgba(0,0,0,.25);
+	background: wheat;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.3rem;
+	border: 0.1rem solid black;
+	
+	label {
+		padding: 1rem;
+	}
+}

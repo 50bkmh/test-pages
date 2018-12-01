@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Solar</title>
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div class="site">
+		<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
+		<header class="site-header">
+			<div class="site-branding">
+				<nav class="navigation main">
+					<ul class="links-menu">
+						<li><a class="fas fa-home" href="/">Home</a></li>
+						<li><a class="fas fa-globe" href="/html/planets/">Planets</a></li>
+						<li><a class="fas fa-moon" href="/html/moons/">Moons</a></li>
+						<li><a class="fas fa-meteor" href="/html/acm/">Asteroids, Comets & Meteors</a></li>
+					</ul>
+					<ul class="sign">
+						<li><a class="fas fa-key" href="/html/login/">Login</a></li>
+						<li><a class="fas fa-user-friends" href="/html/register/">Register</a></li>
+					</ul>
+				</nav>
+				<p class="site-title">
+					<a href="/">Solar</a>
+				</p>
+			</div>
+			<label id="nav-toggle-right" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
+		</header>
+		<main class="site-content">
+			<section class="overview">
+    <h2>What is a Planet?</h2>
+    <p>This seemingly simple question doesn't have a simple answer. Everyone knows that Earth, Mars and Jupiter are
+        planets. At least, they are for now. Both Pluto and Ceres were once considered planets until new discoveries
+        triggered scientific debate about how to best describe themâ€”a vigorous debate that continues to this day. The
+        most recent definition of a planet was adopted by the International Astronomical Union in 2006. It says a
+        planet must do three things: It must orbit a star (in our cosmic neighborhood, the Sun). It must be big enough
+        to have enough gravity to force it into a spherical shape. It must be big enough that its gravity cleared away
+        any other objects of a similar size near its orbit around the Sun. Discussionâ€”and debateâ€”will continue as
+        our view of the cosmos continues to expand</p>
+</section>
+<div class="overview">
+    <h2>Planets in Our Solar System</h2>
+</div>
+<section class="planets">
+    <article class="planet">
+        <div>
+            <img src="/assets/images/mercury.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Mercury</h2>
+            <p class="planet-text">Mercury - the smallest planet in our solar system and closest to the Sun - is only slightly larger than Earth's
+                Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets//images/venus.png">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Venus</h2>
+            <p class="planet-text">Venus spins slowly in the opposite direction from most planets. A thick atmosphere
+                traps
+                heat in a runaway
+                greenhouse effect, making it the hottest planet in our solar system.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets//images/earth.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Earth</h2>
+            <p class="planet-text">Earth - our home planet - is the only place we know of so far that’s inhabited by living
+                things. It's also the
+                only planet in our solar system with liquid water on the surface.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets//images/mars.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Mars</h2>
+            <p class="planet-text">Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong
+                evidence Mars was - billions
+                of years ago - wetter and warmer, with a thicker atmosphere.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets//images/jupiter.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Jupiter</h2>
+            <p class="planet-text">Jupiter is more than twice as massive than the other planets of our solar system
+                combined. The giant
+                planet's Great Red spot is a centuries-old storm bigger than Earth.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets/images/saturn.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Saturn</h2>
+            <p class="planet-text">Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar
+                system. The other giant
+                planets have rings, but none are as spectacular as Saturn's.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets/images/uranus.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Uranus</h2>
+            <p class="planet-text">Uranus - seventh planet from the Sun - rotates at a nearly 90-degree angle from the
+                plane of
+                its orbit. This
+                unique tilt makes Uranus appear to spin on its side.</p>
+        </div>
+    </article>
+    <article class="planet">
+        <div>
+            <img src="/assets/images/neptune.jpg">
+        </div>
+        <div class="planet-info">
+            <h2 class="planet-title">Neptune</h2>
+            <p class="planet-text">Neptune - the eighth and most distant major planet orbiting our Sun is dark, cold and
+                whipped by supersonic
+                winds. It was the first planet located through mathematical calculations.</p>
+        </div>
+    </article>
+</section>
+		</main>
+		<footer class="site-footer">
+			<ul class="links-menu">
+				<li><a href="https://www.facebook.com/nasasolarsystem/" class="face fab fa-facebook"> Facebook</a></li>
+				<li><a href="https://twitter.com/NASASolarSystem" class="tweet fab fa-twitter"> Twitter</a></li>
+			</ul>
+			<div class="copyright">
+				<p>2018 - Solar</p>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

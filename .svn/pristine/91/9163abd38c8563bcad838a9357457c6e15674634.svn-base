@@ -1,0 +1,123 @@
+html {
+	font-family: 'Orbitron', sans-serif;
+	height: 100%;
+}
+
+body {
+	background: wheat;
+	color: var(--color-text-main, black);
+	width: 100%;
+}
+
+main {
+	width: 100%;
+}
+
+p {
+	font-family: 'Pontano Sans', sans-serif;
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 320px) {
+	html {
+		font-size: var(--font-size-initial, 10px);
+	}
+}
+
+@media screen and (min-width: 480px) {
+	html {
+		font-size: var(--font-size-lv2, 11px);
+	}
+}
+
+@media screen and (min-width: 640px) {
+	html {
+		font-size: var(--font-size-lv3, 12px);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	html {
+		font-size: var(--font-size-lv4, 13px);
+	}
+}
+
+@media screen and (min-width: 960px) {
+	html {
+		font-size: var(--font-size-lv5, 14px);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: var(--font-size-lv6, 14.5px);
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	html {
+		font-size: var(--font-size-lv7, 17px);
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	html {
+		font-size: var(--font-size-lv8, 18px);
+	}
+}
+
+body,
+table,
+th,
+td,
+form,
+input,
+textarea,
+option,
+select {
+	font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	padding-bottom: 0.5em;
+}
+
+h3,
+.grid-number {
+	margin-top: 0.5em;
+}
+
+$headings: (h1: 2.441em, h2: 1.953em, h3: 1.563em, h5: 1em, h6: 1em);
+
+@each $heading,
+$size in $headings {
+	#{$heading} {
+		font-size: $size;
+	}
+}
+
+h5,
+h6 {
+	font-weight: bold;
+}
+
+p,
+ul,
+ol {
+	// padding-bottom: 1.5em;
+}
+
+ul,
+ol {
+	// padding-left: 2em;
+}
+
+li {
+	list-style-position: inside;
+}

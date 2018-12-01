@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ site.title }}</title>
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div class="site">
+		<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
+		<header class="site-header">
+			<div class="site-branding">
+				<nav class="navigation main">
+					<ul class="links-menu">
+						<li><a class="fas fa-home" href="{{ site.baseurl }}/">Home</a></li>
+						<li><a class="fas fa-globe" href="{{ site.baseurl }}/html/planets/">Planets</a></li>
+						<li><a class="fas fa-moon" href="{{ site.baseurl }}/html/moons/">Moons</a></li>
+						<li><a class="fas fa-meteor" href="{{ site.baseurl }}/html/acm/">Asteroids, Comets & Meteors</a></li>
+					</ul>
+					<ul class="sign">
+						<li><a class="fas fa-key" href="{{ site.baseurl }}/html/login/">Login</a></li>
+						<li><a class="fas fa-user-friends" href="{{ site.baseurl }}/html/register/">Register</a></li>
+					</ul>
+				</nav>
+				<p class="site-title">
+					<a href="{{ site.baseurl }}/">{{ site.title }}</a>
+				</p>
+			</div>
+			<label id="nav-toggle-right" for="nav-main-toggle" class="fas nav-toggle right"><span>Menu</span></label>
+		</header>
+		<main class="site-content">
+			{{content}}
+		</main>
+		<footer class="site-footer">
+			<ul class="links-menu">
+				<li><a href="https://www.facebook.com/nasasolarsystem/" class="face fab fa-facebook"> Facebook</a></li>
+				<li><a href="https://twitter.com/NASASolarSystem" class="tweet fab fa-twitter"> Twitter</a></li>
+			</ul>
+			<div class="copyright">
+				<p>2018 - Solar</p>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

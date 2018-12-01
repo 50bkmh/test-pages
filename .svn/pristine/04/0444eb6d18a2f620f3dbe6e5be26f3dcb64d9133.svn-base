@@ -1,0 +1,114 @@
+body {}
+
+// .site {
+// 	padding: var(--spacing-site, 22em);
+
+// 	@at-root #{&}-content {
+// 		// max-width: 60rem;
+// 		margin: 0 auto;
+// 	}
+// }
+
+// body.login {
+// 	height: 100vh;
+// 	overflow: hidden;
+// 	padding-top: 0;
+// 	display: flex;
+
+// 	.site {
+// 		flex: 1 0 auto;
+// 		background: #EEE;
+// 		border: 4rem solid #FFF;
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+
+// 		#{&}-header {
+// 			display: none;
+// 		}
+// 	}
+// }
+.title-main {
+	text-align: center;
+}
+
+#grid {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	margin: 2rem;
+}
+
+.grid-number {
+	background: black;
+	color: wheat;
+	width: 14%;
+    border-radius: 20%;
+}
+
+.info-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
+	border: 0.05rem solid --color-text-main;
+	border-radius: 0.2rem;
+}
+
+.overview {
+	text-align: center;
+	padding: 2rem 0 3rem 0;
+
+	p {
+		margin: 0 3rem;
+	}
+}
+
+.planets {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	grid-gap: 4rem;
+	width: 100%;
+}
+
+.planet {
+	display: flex;
+	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
+	border-radius: 0.5rem;
+	width: 66%;
+
+	div {
+		width: 100%;
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.planet-info {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+	}
+}
+
+.planet-title {
+	text-align: center;
+}
+
+.planet-text,
+.grid-text {
+	text-align: center;
+	padding: 1rem;
+}
+
+.text-bold {
+	font-size: bold;
+}

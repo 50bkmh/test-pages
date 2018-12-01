@@ -1,0 +1,145 @@
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	background: transparent;
+	// filter: drop-shadow(50%);
+	padding: 1rem 0;
+	transition: top 0.3s;
+	// box-shadow: 0 0 1.5rem 0.1rem rgba(white,0.1);
+	// position: absolute;
+	// top: 2rem; left: 75rem;
+	// top: 0; left: 0; right: 0; bottom: 0;
+	// align-items: center;
+	// justify-content: center;
+	// background: rgba(rgb(177, 176, 176),0.3);
+
+	ul {
+		padding: 0;
+		margin: 0;
+		// background: rgba(140, 160, 158, 0.89);
+		background: transparent;
+	}
+	
+	li {
+		display: block;
+		list-style: none outside;
+		background: transparent;
+		// border-top: 1px solid transparent;
+		// border-radius: 0.4rem;
+		// padding: 0.2rem 0;
+		animation: navitemin 1s 1 ease forwards;
+		// opacity: 4;
+		// transform: scale(0.1) translate(0, 3rem) rotate(720deg);
+
+		&:hover {
+			// background: rgba(white, 0.1);
+			// background: white;
+			// color: black;
+			// color: red;
+			// border: 1px solid white;
+		}
+	}
+
+	a {
+		display: block;
+		padding: 1rem 1.6rem;
+		font-size: 1rem;
+		background: transparent;
+		text-decoration: none;
+		color: wheat;
+		border-radius: 0.2rem;
+		transition: background 0.5s ease-in;
+		// box-shadow: 0 0 1rem 0 rgba(#000,0.2);
+		// box-shadow: 0 0 1.5rem 0.1rem rgba(white,0.1);
+
+		&:hover {
+			// color: rgb(158, 203, 240);
+			// font-size: 1.2rem;
+			color: black;
+			background: wheat;
+		}
+	}
+
+	a:before {
+		margin-right: 1em;
+	}
+
+	@for $i from 1 through 6 {
+		li:nth-child(#{$i}) { 
+			animation-delay: $i * 0.15s;
+		}
+	}
+}
+
+.links-menu,
+.sign {
+	display: flex;
+}
+
+#nav-main-toggle {
+	display: none;
+}
+
+.nav-toggle {
+	// display: none;
+	position: absolute;
+	top: var(--spacing-site, 2rem);
+	left: var(--spacing-site, 2rem);
+	z-index: 1000;
+	font-size: 2.5rem;
+	padding: 0 0.5rem;
+	animation: navtogglein 0.5s 1 ease-in-out forwards;
+
+	& span {
+		display: none;
+	}
+
+	&:before {
+		content: '\f0c9';
+	}
+
+	&:before {
+		margin-right: 1rem;
+	}
+
+	&#nav-toggle-right {
+		left: inherit;
+		right: var(--spacing-site, 2rem);
+		color: wheat;
+	}
+}
+
+#nav-main-toggle:checked + .site-header {
+
+   	.navigation {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 0; left: 0; right: 0; bottom: 0;
+		// z-index: 1000;
+		// height: 100vh;
+
+		.links-menu {
+			display: flex;
+			flex-direction: column;
+		}
+
+		
+		.sign {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	.nav-toggle:before {
+		content: '\f00d';
+	}
+
+	.nav-toggle {
+		z-index: 1010;
+		animation: jump 0.1s 1 ease-in-out forwards;
+	}
+}
+

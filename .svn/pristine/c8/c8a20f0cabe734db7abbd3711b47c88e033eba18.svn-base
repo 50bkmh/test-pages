@@ -1,0 +1,46 @@
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 3rem;
+
+
+    .links-menu {
+        display: flex;
+        flex-direction: column;
+        background: black;
+
+
+        li {
+            display: block;
+            list-style: none;
+            font-size: 1.4rem;
+            padding: 0.6rem 0;
+            // border-bottom: 0.2rem solid black;
+
+            &:hover {
+                background: wheat;
+                transition: background 0.5s ease-in, color 0.8s ease-in;
+
+                a {
+                    color: black;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: wheat;
+            }
+        }
+    }
+
+    .copyright {
+        background: black;
+        color: wheat;
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+}
