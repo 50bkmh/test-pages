@@ -71,33 +71,30 @@ body {}
 }
 
 .planet {
-	// display: flex;
+	display: flex;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, .25);
 	border-radius: 0.5rem;
-	width: 50%;
+	width: 66%;
 
 	div {
-		// float: left;
 		width: 100%;
 
 		img {
-			// display: block;
+			display: block;
 			width: 100%;
 			height: auto;
-			// width: 320px;
-			// height: 240px;
-			// width: 17.77em;
-			// height: 13.33em;
 		}
 	}
-}
 
-// .image-container {
-// 	height: 100%; 
-// 	width: 100%;
-// 	margin: 0 auto;
-// 	padding: 0;
-// }
+	.planet-info {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+	}
+}
 
 .planet-title {
 	text-align: center;
@@ -108,17 +105,6 @@ body {}
 	padding: 1rem;
 }
 
-.planet-info {
-	text-align: center;
-	padding: 1rem;
-	width: 60%;
-	// float: right;
-}
-
 .text-bold {
 	font-size: bold;
-}
-
-.planet-right {
-	// background: white;
 }

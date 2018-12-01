@@ -43,25 +43,24 @@ $breakpoints: (
 	.planet {
 		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap;
 		// width: 100%;
-		// width: 20%;
+		width: 30%;
 
 		.div {
-			display: inline-block;
+
 			width: 100%;
 			
 			img {
 				max-width: 100%;
-				display: block;
+
 				height: auto;
 			}
 		}
-	}
 
-	.planet-info {
-		display: flex;
-		flex-wrap: wrap;
+		.planet-info {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	.navigation.main {
