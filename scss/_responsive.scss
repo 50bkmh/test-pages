@@ -113,11 +113,26 @@ $breakpoints: (
 			margin: 0 3rem;
 		}
 	}
+
+	.overview {
+		
+		p {
+			margin: 0 7rem;
+		}
+	}
 }
 
 @media screen and (max-width: 480px) {
 	.planet {
 		width: 80%;
+	}
+
+	#development p {
+		margin: 0px 3rem;
+	}
+
+	.overview p {
+		margin: 0px 3rem;
 	}
 }
 
