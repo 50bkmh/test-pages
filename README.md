@@ -1,1 +1,1 @@
-[View Project](https://krasimirmanasiev.github.io/solar/)
+[View Project](https://50bkmh.github.io/test-pages)
